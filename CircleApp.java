@@ -3,6 +3,7 @@
 *Date: 21st Oct 2015
 *CircleApp.java
 *The java application to calculate area and circumference of a circle
+*Edit by: Jashandeep Virk on 9th Sept 2022
 */
 
 
@@ -21,7 +22,7 @@ Circle myCircle;
 //create objects
 myCircle= new Circle();
 //input
-radius = Double.parseDouble(JOptionPane.showInputDialog(null,"Please enter the radius of the circle"));
+radius = Double.parseDouble(JOptionPane.showInputDialog(null,"Please enter the radius of the circle to Calculate Area and Circumference"));
 myCircle.setRadius(radius);
 
 
